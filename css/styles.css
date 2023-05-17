@@ -11,6 +11,14 @@ body{
       background-color: #FFFFFF;
       font-style: normal;
 }
+p,h1,h2,h3,h4,h5,h6{
+      margin: 0;
+}
+
+ul,ol{
+      margin: 0;
+      padding: 0;
+}
 
 .p-text{ 
       font-size: 16px;
@@ -25,6 +33,13 @@ body{
 
 .link{
       text-decoration: none;
+}
+
+.conrainer{
+      width: 1470px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
 }
 
 /**-----------------HEADER-------------*/
