@@ -171,7 +171,13 @@ img{
   font-family: "Roboto", sans-serif;
 }
 
+.images{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .images-head {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -186,9 +192,12 @@ img{
 
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-name {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
