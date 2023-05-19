@@ -199,7 +199,11 @@ img {
 
 .about-list {
   display: flex;
-  gap: 24px;
+  gap: 24px; 
+}
+
+.about-item{
+  width: calc((100% - 72px) / 4);
 }
 
 .about-name {
@@ -208,12 +212,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
-  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .about-item-name {
   color: var(--second-tittle-color);
   font-family: "Roboto", sans-serif;
+
 }
 
 .images-list {
