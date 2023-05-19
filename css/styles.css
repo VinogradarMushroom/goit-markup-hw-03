@@ -309,6 +309,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -319,8 +321,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: #f4f4fd; 
-  display: inline-block;
-  margin-bottom: 16px;
+
 }
 
 .footer-about {
@@ -330,6 +331,14 @@ img {
 }
 
 /**-----------------PORTFOLIO-------------*/
+
+.button-list{
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  gap: 24px;
+}
 
 .btn {
   background-color: #f4f4fd;
@@ -341,6 +350,8 @@ img {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  padding: 12px 24px 12px 24px;
+  border: 1px solid #e7e9fc
 }
 
 .btn:hover,
