@@ -45,14 +45,14 @@ img {
   text-decoration: none;
 }
 
-.container {
+.container-1 {
   width: 1470px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-.container-1 {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -63,7 +63,9 @@ img {
 
 .header {
   font-family: "Raleway", sans-serif;
-  padding-top: 32px;
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -74,7 +76,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px 0;
+  padding: 24px 0 24px;
 }
 
 .header-list {
@@ -312,14 +314,15 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #f4f4fd; 
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-about {
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 /**-----------------PORTFOLIO-------------*/
