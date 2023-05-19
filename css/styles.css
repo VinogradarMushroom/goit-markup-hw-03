@@ -116,6 +116,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 .header-link:is(:hover, :focus) {
@@ -144,6 +146,8 @@ img {
 
 .header-address-link {
   color: var(--second-tittle-color);
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 /**-----------------HERO-------------*/
@@ -342,8 +346,8 @@ img {
 .button-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
   gap: 24px;
+  padding-bottom: 72px;
 }
 
 .btn {
