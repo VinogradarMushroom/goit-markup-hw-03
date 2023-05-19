@@ -330,10 +330,14 @@ img {
 
 /**-----------------PORTFOLIO-------------*/
 
+.portfolio{
+  padding-top: 96px; 
+  padding-bottom: 120px;
+}
+
 .button-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
   padding-bottom: 72px;
   gap: 24px;
 }
