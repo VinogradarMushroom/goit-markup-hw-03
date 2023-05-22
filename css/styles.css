@@ -76,8 +76,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header-list {
@@ -116,8 +115,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-link:is(:hover, :focus) {
@@ -143,8 +140,7 @@ img {
 
 .header-address-link {
   color: var(--second-tittle-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 /**-----------------HERO-------------*/
@@ -186,7 +182,7 @@ img {
 }
 
 .btn-hero:is(:hover, :focus) {
-  background-color: #4d5ae5;
+  color: #ffffff;
 }
 
 .visually-hidden {
