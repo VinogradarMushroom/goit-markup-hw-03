@@ -97,6 +97,7 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  
 }
 
 .logo-studio {
@@ -106,6 +107,8 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--first-title-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link {
@@ -115,6 +118,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:is(:hover, :focus) {
