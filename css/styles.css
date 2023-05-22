@@ -140,7 +140,8 @@ img {
 
 .header-address-link {
   color: var(--second-tittle-color);
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /**-----------------HERO-------------*/
